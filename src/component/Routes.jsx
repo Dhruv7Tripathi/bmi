@@ -12,6 +12,7 @@ const BrowerRoutes = () => {
         {/* <Route path="/contact" element={<Contacts />} /> */}
         {/* <Route path="/features" element={<Features />} /> */}
         <Route path="/signup" element={<SignUp />} />
+        <Route path="/" element={<SignUp />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/login" element={<Login />} />
       </Routes>
